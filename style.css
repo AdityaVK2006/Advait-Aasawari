@@ -1,0 +1,170 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: wishful;
+    src: url("Wishful.ttf");
+}
+.main{
+    height: auto;
+    width: 100%;
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #2f91af;
+}
+nav{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(54, 48, 48);
+    display: flex;
+    align-items: center;
+}
+nav span{
+    color: white;
+    font-size: 300%;
+    font-family: wishful;
+}
+
+.hero{
+    height: 90%;
+    width: 100%;
+    background-image: url("nathan-dumlao-EdULZpOKsUE-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+}
+#name{
+    margin-left: 20vh;
+}
+.hero .h1{
+    margin:5%;
+    line-height: 6vh;
+}
+.hero h1{
+    font-size: 15vh;
+    font-family: wishful;
+    color: white;
+    mix-blend-mode: difference;
+}
+.break{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(28, 24, 24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.break h1{
+    color: white;
+    margin: 10%;
+}
+.page2{
+    min-height: 100vh;
+    width: 100%;
+}
+.page2 .upper{
+    height: 35vh;
+    width: 100%;
+    background-image: url("back.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    border-radius: 40%;
+    margin-top: 9vh;
+    height: 43vh;
+    width: 33vh;
+    background-color: #dadada;
+    background-image: url("IMG-20240619-WA0038.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.page2 h1{
+    text-align: center;
+    font-size: 8vh;
+    margin-top: 18vh;
+    font-family: monospace;
+    color:goldenrod
+}
+.page2 p{
+    margin-top: 5%;
+    text-align: center;
+    font-size: xx-large;
+    color: rgba(87, 82, 82, 0.66);
+}
+.page2 p span{
+    font-family: fantasy;
+    font-weight: 900;
+    color: goldenrod;
+}
+.lastpage{
+    min-height: 100vh;
+    width: 100%;
+    background-color: aqua;
+}
+
+@media screen and (max-width:360px) {
+    #name{
+        margin-left: 0;
+    }
+    .hero .h1{
+        margin-top: 30%;
+    }
+    .break h1{
+        color: white;
+        margin: 0;
+    }
+    .hero h1{
+        margin-top: 8%;
+        font-size: 10vh;
+        font-family: wishful;
+        color: white;
+        mix-blend-mode: difference;
+        line-height: 1vh;
+    }
+    .page2 .upper{
+        height: 60vh;
+        width: 100%;
+        background-image: url("back.avif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        border-radius: 40%;
+        margin-top: 12vh;
+        height: 37vh;
+        width: 30vh;
+        background-color: #dadada;
+    }
+    .page2 h1{
+        text-align: center;
+        font-size: 6vh;
+        margin-top: 3vh;
+        font-family: monospace;
+        color:goldenrod
+    }
+    .page2 p{
+        margin-top: 5%;
+        text-align: center;
+        font-size: large;
+        color: rgba(87, 82, 82, 0.66);
+    }
+}
