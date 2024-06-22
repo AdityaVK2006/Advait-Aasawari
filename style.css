@@ -112,16 +112,38 @@ nav span{
     font-weight: 900;
     color: goldenrod;
 }
+.change{
+    height: 35vw;
+    width: 96vw;
+    margin-left: 2vw;
+}
+.change img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 7%;
+}
 .lastpage{
-    min-height: 100vh;
+    height: auto;
     width: 100%;
 }
-.lastpage .photo{
-    height: 56vw;
-    width: 46vw;
+.lastpage .horizontal{
+    height: 54vw;
+    width: 44vw;
     background-color: black;
     display: inline-block;
     margin: 1vw;
+    margin-left: 2vw;
+}
+.lastpage .vertical{
+    height: 54vw;
+    width: 92vw;
+    background-color: black;
+    display: inline-block;
+    margin: 1vw;
+    margin-left: 3vw;
+    border: 3px solid goldenrod ;
 }
 .lastpage h1{
     font-size: 6vh;
@@ -129,7 +151,14 @@ nav span{
     color: goldenrod;
     font-family: cursive
 }
-.lastpage .photo img{
+.lastpage .horizontal img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border: 4px solid rgb(220, 112, 4) ;
+}
+.lastpage .vertical img{
     height: 100%;
     width: 100%;
     object-fit: cover;
